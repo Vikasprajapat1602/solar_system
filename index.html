@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Solar System</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- 🌌 Navbar -->
+    <nav class="glass-navbar">
+        <div class="navbar-title">🚀 Solar System</div>
+        <div class="navbar-buttons">
+            <button id="toggleButton" class="glass-btn">Pause</button>
+            <button id="modeToggle" class="glass-btn">Dark</button>
+        </div>
+    </nav>
+
+    <!-- Tooltip on Hover -->
+    <div id="tooltip" style="position:absolute; color:white; display:none;"></div>
+
+    <!-- 3D Scene -->
+    <canvas id="solarCanvas"></canvas>
+
+    <!--  Sliders at Bottom (Footer-style) -->
+    <div id="footer-controls">
+        <div id="controls"></div>
+    </div>
+
+    <!-- Three.js Library -->
+    <script src="https://unpkg.com/three@0.148.0/build/three.min.js"></script>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

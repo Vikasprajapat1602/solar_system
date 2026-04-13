@@ -1,0 +1,120 @@
+/* 🔃 Reset & Background */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+}
+
+/* Fullscreen Canvas */
+#solarCanvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/*  Navbar - Bigger + Modern Glass Style */
+.glass-navbar {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(16px);
+  border-radius: 30px;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  z-index: 100;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.glass-btn {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.glass-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+/* 🎚️ Footer Controls - Stylish Modern Cards */
+#footer-controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+  padding: 16px 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: white;
+  font-size: 14px;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 95%;
+}
+
+#controls div {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 120px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+#controls div:hover {
+  transform: translateY(-4px);
+}
+
+#controls label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+#controls input[type="range"] {
+  width: 100px;
+  cursor: pointer;
+}

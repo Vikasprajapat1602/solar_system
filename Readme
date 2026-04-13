@@ -1,0 +1,29 @@
+# 🌌 3D Solar System – Frontend Assignment (Vikas Prajapat)
+
+## Features Implemented
+- 3D simulation using **Three.js**
+- Sun at the center with **8 orbiting planets**
+- Each planet has its own **speed, color, size**
+- **Speed control sliders** (real-time)
+- **Pause/Resume** animation
+- **Dark/Light mode** toggle
+- **Tooltips** on planet hover
+- **Click to zoom camera**
+- **Starfield background**
+
+## Technologies Used
+- HTML, CSS, JavaScript
+- Three.js (via CDN)
+
+## How to Run the Project
+1. Download or extract the `.zip` file
+2. Open `index.html` in Chrome or any modern browser
+3. No installation or server required
+
+## Demo Video
+- Watch the demo video file: `demo_video.mp4`  
+  *(Shows animation, controls, code walk-through)*
+
+## Developer
+**Name:** Vikas Prajapat  
+**Submission:** Frontend Assignment – Vikas Prajapat  
